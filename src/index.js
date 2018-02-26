@@ -1,10 +1,14 @@
 class Sorter {
   constructor() {
-    // your implementation
+   this.sorter=sorter;
+   this.element=element;
+   this.index=index;
+   sorter=new Sorter()
   }
 
   add(element) {
-    // your implementation
+    sorter.add(this.element);
+    console.log(this.element);
   }
 
   at(index) {
